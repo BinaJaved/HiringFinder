@@ -25,31 +25,11 @@ backend/out/
 # ==============================
 # React Native / Frontend
 # ==============================
-# Node dependencies
 frontend/node_modules/
-
-# Expo / React Native
 frontend/.expo/
-frontend/.expo-shared/
-frontend/web-build/
-
-# iOS / Android build folders
-frontend/ios/build/
-frontend/ios/Pods/
 frontend/android/build/
-frontend/android/app/build/
-
-# TypeScript cache
+frontend/ios/build/
 frontend/*.tsbuildinfo
-
-# Logs
-frontend/logs/
-frontend/*.log
-
-# Environment variables
-frontend/.env
-frontend/.env.local
-frontend/.env.*.local
 
 # ==============================
 # Misc / IDE / OS files
