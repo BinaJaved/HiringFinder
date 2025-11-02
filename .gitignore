@@ -1,20 +1,67 @@
-# Node
-.env
-/backend/node_modules/
-npm-debug.log
-yarn-error.log
-yarn-debug.log
+# ==============================
+# Node.js / Backend
+# ==============================
+# Node dependencies
+backend/node_modules/
 
+# Logs
+backend/logs/
+backend/*.log
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+
+# Environment variables
+backend/.env
+backend/.env.local
+backend/.env.*.local
+
+# Build artifacts
+backend/dist/
+backend/build/
+backend/.next/
+backend/out/
+
+# ==============================
+# React Native / Frontend
+# ==============================
+# Node dependencies
+frontend/node_modules/
+
+# Expo / React Native
+frontend/.expo/
+frontend/.expo-shared/
+frontend/web-build/
+
+# iOS / Android build folders
+frontend/ios/build/
+frontend/ios/Pods/
+frontend/android/build/
+frontend/android/app/build/
+
+# TypeScript cache
+frontend/*.tsbuildinfo
+
+# Logs
+frontend/logs/
+frontend/*.log
+
+# Environment variables
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# ==============================
+# Misc / IDE / OS files
+# ==============================
 # VSCode
 .vscode/
-.expo/
- 
-# TypeScript
-*.tsbuildinfo
 
-# Misc
+# MacOS
 .DS_Store
+.expo/
 
-# React Native / Expo build folders
-android/
-ios/
+# npm / yarn
+package-lock.json
+yarn.lock
+
