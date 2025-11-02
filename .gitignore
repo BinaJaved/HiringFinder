@@ -1,0 +1,20 @@
+# Node
+.env
+/backend/node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# VSCode
+.vscode/
+.expo/
+ 
+# TypeScript
+*.tsbuildinfo
+
+# Misc
+.DS_Store
+
+# React Native / Expo build folders
+android/
+ios/
