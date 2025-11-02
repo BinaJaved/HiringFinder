@@ -1,7 +1,7 @@
 # Hiring Finder App
 
 # Demo
-![Demo](../Demo//demo.gif)
+![Demo](./Demo//demo.gif)
 
 A **React Native + Expo** mobile app that uses **OpenAI** to fetch a list of companies that are currently hiring. The app provides a clean, simple interface to search for companies based on keywords and displays the results in a user-friendly format. Company links are clickable to open in the default browser.
 
